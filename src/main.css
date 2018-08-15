@@ -1,0 +1,200 @@
+.logo{
+    /*font-family: 'Acuminpro regular',sans-serif;*/
+    font-family: "Futura W01 Book", Arial, sans-serif !important;
+    color: rgba(0,0,0,.95) !important;
+    font-size: 11px !important;
+    font-weight: 400;
+    /*line-height: 20px;*/
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+    display: inline-block;
+    padding: 9px 15px;
+    /*background-color: #3898EC;*/
+    /*color: #fff;*/
+    border: 0;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 0;
+}
+
+.logo-line {
+    background-color: rgba(0,0,0,.6);
+    z-index: 99;
+    position: fixed;
+}
+
+/*.logo-line {*/
+    /*left: 171px;*/
+    /*top: 46px;*/
+    /*width: 40px;*/
+    /*height: 1px;*/
+/*}*/
+
+.designer-logo{
+    z-index: 99;
+    position: absolute;
+    right: 50px;
+    bottom: 30px;
+}
+
+.designer-logo:before{
+    content: "";
+    position: absolute;
+    background-color: rgba(0,0,0,.6);
+    z-index: 99;
+    display: block;
+    margin-top: 7px;
+    left: -40px;
+    /*bottom: 2%;*/
+    width: 40px;
+    height: 1px;
+}
+
+.name-logo {
+    position: fixed;
+    left: 30px;
+    top: 30px;
+    background-color: transparent;
+    /*font-size: 11px;*/
+    /*letter-spacing: 4px;*/
+    /*text-decoration: none;*/
+}
+
+.name-logo:after{
+    content: "";
+    position: absolute;
+    background-color: rgba(0,0,0,.6);
+    z-index: 99;
+    margin-top: 10px;
+    left: 171px;
+    /*top: 2%;*/
+    width: 40px;
+    height: 1px;
+
+}
+
+a.logo.email-logo {
+    position: absolute;
+    left: 14px;
+    top: 141px;
+    background-color: transparent;
+    transform: rotate(-90deg);
+    color: rgba(0,0,0,.95);
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+/*a.logo.email-logo:before {*/
+    /*position: absolute;*/
+    /*left: 52px;*/
+    /*top: 200px;*/
+    /*z-index: 99;*/
+    /*width: 1px;*/
+    /*height: 40px;*/
+    /*background-color: rgba(0,0,0,.6);*/
+    /*transform: rotate(0deg);*/
+/*}*/
+
+a.logo.email-logo:before{
+    content: "";
+    position: absolute;
+    background-color: rgba(0,0,0,.6);
+    z-index: 99;
+    display: block;
+    margin-bottom: 10px;
+    left: -40px;
+    top: 16px;
+    width: 40px;
+    height: 1px;
+    transform: rotate(0deg);
+}
+
+a.logo.github-logo {
+    position: absolute;
+    left: 14px;
+    /*right: 50px;*/
+    bottom: 85px;
+    background-color: transparent;
+    transform: rotate(-90deg);
+    color: rgba(0,0,0,.95);
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+a.logo.github-logo:after{
+    content: "";
+    position: absolute;
+    background-color: rgba(0,0,0,.6) !important;
+    z-index: 99;
+    display: block;
+    margin-bottom: 10px;
+    left: 105px;
+    top: 16px;
+    width: 40px;
+    height: 1px;
+    transform: rotate(0deg);
+}
+
+.name-wrapper{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: 2px solid rgba(0, 0, 0, .5);
+    padding: 3% 0;
+}
+
+.title, .subtitle{
+    color: transparent;
+    /*background: url("https://shechive.files.wordpress.com/2011/06/091.gif?w=500&h=500") repeat;*/
+    background: url(./title.gif) repeat;
+    background-position: 40% 50%;
+    -webkit-background-clip: text;
+    position:relative;
+    text-align:center;
+    text-transform: uppercase;
+}
+
+.title{
+    margin: 3% 0 3% 0;
+    font-weight: 900;
+    font-size:180px;
+    line-height:115px;
+    letter-spacing: -8px;
+    display: block;
+
+}
+.subtitle{
+    font-weight: 200;
+    font-size:40px;
+    line-height:60px;
+    letter-spacing: -6px;
+    display: block;
+    padding-top:10px;
+}
+
+.flex-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.flex-col-12 {
+    flex: 0 1 100%;
+}
+
+.flex-col-10 {
+    flex: 0 1 80%;
+}
+
+.flex-col-6 {
+    flex: 0 1 50%;
+}
+
+
+
